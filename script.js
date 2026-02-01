@@ -16,11 +16,21 @@ noBtn.addEventListener("touchstart", moveButton);
 noBtn.addEventListener("mouseover", moveButton);
 
 yesBtn.addEventListener("click", () => {
-    message.innerHTML = "You've made me the happiest person! ❤️<br>I can't wait to see you!".
+    message.innerHTML = `
+        <div style="font-size: 18px; line-height: 1.6; color: #ff4d6d; margin-top: 20px;">
+            YAYYY!!! 💖<br><br>
+            My dearest chutti,<br>
+            You have no idea how happy you've made me. 
+            Every moment with you is like a dream come true, and I'm so lucky 
+            to have you by my side. You're my favorite person in the world 
+            and I promise to always keep you smiling. I love you forever! ❤️ send nudes😋
+        </div>
+    `;
     document.querySelector(".buttons").style.display = "none";
     if (music.src) music.play();
     startHearts();
 });
+
 
 function startHearts() {
     setInterval(() => {
