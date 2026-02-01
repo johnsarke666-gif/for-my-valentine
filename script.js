@@ -16,7 +16,7 @@ noBtn.addEventListener("touchstart", moveButton);
 noBtn.addEventListener("mouseover", moveButton);
 
 yesBtn.addEventListener("click", () => {
-    message.innerHTML = "YAYYY!!! 💖<br>I love you forever ❤️";
+    message.innerHTML = "You've made me the happiest person! ❤️<br>I can't wait to see you!".
     document.querySelector(".buttons").style.display = "none";
     if (music.src) music.play();
     startHearts();
